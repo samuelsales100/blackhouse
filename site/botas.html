@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>black house</title>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header-links {
+            margin: 15px 0;
+        }
+
+        .header-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            padding: 5px 10px;
+            transition: all 0.3s ease;
+        }
+
+        .header-links a:hover {
+            text-decoration: underline;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+            flex-grow: 1;
+        }
+
+        .product {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            width: 250px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .product:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .product img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-bottom: 1px solid #eee;
+        }
+
+        .product-info {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .product-info h3 {
+            margin: 10px 0;
+            color: #333;
+            font-size: 1.2em;
+        }
+
+        .product-info p {
+            color: #666;
+            margin: 5px 0;
+        }
+
+        .price {
+            font-size: 1.3em;
+            color: #e74c3c;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #111;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: auto;
+        }
+
+        .section-title {
+            width: 100%;
+            text-align: center;
+            margin: 40px 0 20px;
+            font-size: 1.8em;
+            color: #333;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Black House</h1>
+     
+
+        <div class="header-links">
+            <a href="camisas.index">Camisas</a>
+            <a href="boots.index">Boots</a>
+            <a href="acessorios.html">Acessórios </a>
+        
+            <a href="cole.index"> Coleção</a>
+            <a href="contato.html">Contato</a>
+        </div>
+    </header>
+
+    <!-- Seção de Roupas -->
+    <div class="container">
+        <div class="section-title">
+            <h2>BULLET BLOUND</h2>
+        </div> 
+        
+            <!-- Produto 4 -->
+            <div class="product">
+                <img src="https://i.pinimg.com/736x/80/83/bc/8083bcebf7af609d7a79f3f41057f506.jpg" alt="Bota">
+                <div class="product-info">
+                    <h3>Pluvian</h3>
+                    <p>Versátil e chique</p>
+                    <p class="price">R$199</p>
+                </div>
+            </div>
+        
+            <!-- Produto 5 -->
+            <div class="product">
+                <img src="https://i.pinimg.com/736x/f8/90/d0/f890d097a64dcd47e81b172c20b4b065.jpg" alt="Bota">
+                <div class="product-info">
+                    <h3>Glummy</h3>
+                    <p>Conforto e estilo sombrio</p>
+                    <p class="price">R$229</p>
+                </div>
+            </div>
+        
+            <!-- Produto 6 -->
+            <div class="product">
+                <img src="https://i.pinimg.com/736x/64/7e/e0/647ee02657f9d89c9f07b267fe5884ec.jpg" alt="Bota">
+                <div class="product-info">
+                    <h3>Dump Modern</h3>
+                    <p>Projetado pra você</p>
+                    <p class="price">R$399</p>
+                </div>
+            </div>
+        
+       
+                </div>
+            </div>
+        </div>
+    <footer>
+        <p>&copy; 2025 Black House - Todos os direitos reservados.</p>
+        <p>Siga-nos nas redes sociais</p>
+    </footer>
+ 
+</body>
+
+</html>
